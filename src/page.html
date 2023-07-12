@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+<div class="wrapper">
+        <form action="#" id="form" class="form">
+            <h1 class="form_title">Create account</h1>
+            <fieldset>
+            <div class="form_input username">
+                <label for="username">username <span class="required">*</span></label>
+                <input type="text" id="username" placeholder="enter your username" autocomplete="on" class="input_req username_v"/>
+                <span class="error username-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid username</p>
+          </span>
+            </div>
+            <div class="form_input email">
+                <label for="email">email <span class="required">*</span></label>
+                <input type="email" id="email"  placeholder="enter your email" autocomplete="on" class="input_req email_v"/>
+                <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid email</p>
+          </span>
+            </div>
+            <div class="form_input password">
+                <label>password <span class="required">*</span></label>
+                <input type="password" id="password" placeholder="enter your password" autocomplete="off" class="input_req password_v"/>
+                <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Please enter at least 8 character with number, symbol, small and
+              capital letter.
+            </p>
+          </span>
+            </div>
+            <div class="form_input confirm_password">
+                <label>confirm password <span class="required">*</span></label>
+                <input type="password"  id="confirm_password" placeholder="confirm your password" autocomplete="off" class="input_req confirm_password_v"/>
+                <span class="error confirm-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match.</p>
+          </span>
+            </div>
+            <div class="form_input age">
+                <label for="age">age<span class="required">*</span></label>
+                <input type="date" id="age" name="age"  class="input_req age_v"/>
+                <span class="error username-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Eligibility 18 years ONLY.</p>
+          </span>
+            </div>
+            <div class="button">
+                <button type="submit" name="create" id="create" class="create">create</button>
+            </div>
+            </fieldset>
+        </form>
+</div>
+<script src="page.js"></script>
+</body>
+</html>

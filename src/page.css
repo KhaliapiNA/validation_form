@@ -1,0 +1,106 @@
+
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
+    font-family: "Lato", Arial, sans-serif;
+    background-color: #E8A0BF;
+}
+
+.form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FDF4F5;
+    color: #BA90C6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+.required {
+    color: #FD8A8A;
+}
+
+.no_valid input {
+    box-shadow: 3px 3px 3px 3px #FD8A8A;
+/*border: 3px solid #FD8A8A;*/
+}
+.password .error {
+    align-items: flex-start;
+}
+.password .error-icon {
+    margin-top: 4px;
+}
+.form_input .error {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FD8A8A;
+    display: none;
+}
+.no_valid .error {
+    display: flex;
+}
+.error .error-icon {
+    font-size: 15px;
+    margin-right: 6px;
+}
+.valid {
+    box-shadow: darkgreen;
+}
+
+.input_req {
+    width: 100%;
+    min-height: 35px;
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px 10px 10px -10px;
+    padding: 3px;
+    align-items: stretch;
+    border: none;
+}
+.validation_text {
+    color: #FD8A8A;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    height: 12px;
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+}
+#age:hover{
+    cursor: alias;
+}
+button {
+    width: 100%;
+    margin: 15px auto;
+    background-color: #E8A0BF;
+    color: #FDF4F5;
+    font-family: "Lato", Arial, sans-serif;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
